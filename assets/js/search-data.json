@@ -4,9 +4,9 @@
         "post0": {
             "title": "Title",
             "content": "import numpy as np import sympy as sp from matplotlib import pyplot as plt from sklearn.metrics import r2_score . T=np.asarray([40.4,36.8,33.1,30.0,25.1])+273.15 #mu=h^-1 mu=np.asarray([0.0140,.0112,.0074,.0051,.0036]) #R= cal/molK R=1.9872 plt.plot(1/T,np.log(mu),&#39;bo&#39;) plt.xlabel(&quot;1/T&quot;) plt.ylabel(&quot;ln(mu)&quot;) plt.grid(True) Regt2=np.polyfit(1/T,np.log(mu),1) #Ajuste lineal model2=np.poly1d(Regt2) plt.show() print(&quot;Los coeficientes del polinomio son :&quot;,Regt2) R_2=r2_score(np.log(mu),model2(1/T))#Encontramos el R^2 segun los datos print(&quot;R^2 =&quot;,R_2) print(&quot;A =&quot;,np.exp(Regt2[1])) print(&quot;Ea =&quot;,-Regt2[0]*R) . Los coeficientes del polinomio son : [-8714.77307539 23.55238625] R^2 = 0.9881765142464917 A = 16930562330.407394 Ea = 17317.99705540769 .",
-            "url": "https://german0919.github.io/IQ_PROGRAM_ENG/2022/09/16/.html",
-            "relUrl": "/2022/09/16/.html",
-            "date": " • Sep 16, 2022"
+            "url": "https://german0919.github.io/IQ_PROGRAM_ENG/2022/09/18/.html",
+            "relUrl": "/2022/09/18/.html",
+            "date": " • Sep 18, 2022"
         }
         
     
